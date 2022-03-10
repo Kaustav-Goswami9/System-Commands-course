@@ -137,7 +137,7 @@
   - 1 --x
 * rwx rwx rwx : Owner Group Others 
 * only owners can change permissions of a file 
-* Execute permission is required on a directory to cd into it (Even ls and tocuh to a dir will not work)
+* Execute permission is required on a directory to cd into it (Even ls and touch to a dir will not work)
 * If you want to access a file, all its parent direcories should have **x** permission. This works even without r and w permissions if you know the path.
 * r and w permissions along with x is required to ls a directory or touch a file into a directory
 * Removing a file works only if it has write permission
